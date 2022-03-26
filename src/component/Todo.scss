@@ -1,0 +1,68 @@
+.todo-container {
+    padding        : 0 10px 10px 10px;
+    list-style-type: none;
+
+    .header {
+        margin-left: 200px;
+
+        .add {
+            margin-left: 170px;
+        }
+    }
+
+    .content {
+
+
+        .body {
+            padding      : 10px;
+            cursor       : pointer;
+            margin       : 10px 0;
+            border-radius: 4px;
+            background   : rgb(240, 240, 240);
+            color        : black;
+        }
+
+        .completed {
+            background   : rgb(119, 218, 243);
+            padding      : 10px;
+            cursor       : pointer;
+            margin       : 10px 0;
+            border-radius: 4px;
+            color        : black;
+        }
+
+
+        input[type='checkbox'] {
+            -ms-transform    : scale(2);
+            /* IE */
+            -moz-transform   : scale(2);
+            /* FF */
+            -webkit-transform: scale(2);
+            /* Safari and Chrome */
+            -o-transform     : scale(2);
+            /* Opera */
+            transform        : scale(2);
+            padding          : 10px;
+            float            : right;
+            margin-top       : 6px;
+        }
+
+
+
+        button {
+            float       : right;
+            margin-right: 20px;
+
+
+            &:hover {
+                cursor    : pointer;
+                background: red;
+                color     : white;
+            }
+        }
+    }
+
+
+
+
+}
